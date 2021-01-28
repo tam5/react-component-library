@@ -230,7 +230,7 @@ plugins:[
 You can then import and render images in your components like:
 
 ```tsx
-import logo from "./rollup.png";
+import logo from './rollup.png';
 
 export const ImageComponent = () => (
   <div>
@@ -262,7 +262,7 @@ plugins:[
 You can then import and use JSON as ES6 Modules:
 
 ```tsx
-import data from "./some-data.json";
+import data from './some-data.json';
 
 export const JsonDataComponent = () => <div>{data.description}</div>;
 ```
